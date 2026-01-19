@@ -47,4 +47,4 @@ Cybersecurity Student | SOC Analyst Aspirant
 If you like this project, give it a ⭐ on GitHub!
 
 ## 📸 Preview
-![Password Generator Preview](screenshots/preview.png)
+![Password Generator Preview](Screenshots/preview.png)

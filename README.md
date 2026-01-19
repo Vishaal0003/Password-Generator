@@ -3,6 +3,11 @@ A secure, privacy-focused password generator built using **HTML, CSS, and JavaSc
 This tool generates strong passwords locally in your browser — no data is stored or transmitted.
 
 ---
+## Live Demo
+
+Check out the live version of this Password Generator project here:  
+[Password Generator](https://password-generator-git-main-vishals-projects-575d8d25.vercel.app?_vercel_share=3HAUbVIi7n1MKjjKKtD6pmljHOL7tJa4)
+
 
 ## 🚀 Features
 - Strong random password generation

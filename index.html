@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🔐 Password Generator</h2>
+
+    <!-- Password Output -->
+    <div class="output-box">
+      <span id="passwordOutput">Click Generate</span>
+      <button class="btn" onclick="copyPassword()">📋</button>
+    </div>
+
+    <!-- Strength Meter -->
+    <div class="strength-meter">
+      <div id="strengthBar"></div>
+    </div>
+    <p id="strengthText">Strength: N/A</p>
+    
+    <!-- Settings -->
+    <div class="settings">
+      <label>Password Length: 
+        <input type="number" id="length" value="12" min="6" max="32">
+      </label>
+
+      <label><input type="checkbox" id="includeLower" checked> Include Lowercase</label>
+      <label><input type="checkbox" id="includeUpper" checked> Include Uppercase</label>
+      <label><input type="checkbox" id="includeNumbers" checked> Include Numbers</label>
+      <label><input type="checkbox" id="includeSymbols"> Include Symbols</label>
+
+      <hr>
+
+      <label>
+        <input type="checkbox" id="useName" onchange="toggleNameInput()"> Include Your Word (optional)
+      </label>
+      <input type="text" id="userName" placeholder="Use numbers and symbols between words" style="display:none;">
+    </div>
+
+    <button class="btn generate-btn" onclick="generatePassword()">Generate Password</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
